@@ -1,0 +1,8 @@
+git init 
+"sirve para iniciar el repositorio local"
+
+git config --global user.name "Juan" 
+(Esto cofigura el nombre de usuario localmente)
+
+git config --global user.email "jjcorreagetial16@gmail.com"
+(Esto configura el email de usuario asociado)
