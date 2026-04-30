@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- La etiqueta se utiliza para definir tablas en HTML. Todo el contenid de la tabla incluidas las filas y celdas, se coloca dentro de la etiqueta -->
+
+    <!-- La etiqueta se utiliza para definir filas en una tabla. cada fila puede contener una o más celdas, que se definen utilizando las etiquetas <td> (celdas de datos) o <th> (para celdas de encabezado) -->
+    
+    <!-- La etiqueta td define una celda de datos dentro de una fila de la tabla. cada etiqueta <td> representa una columna de datos en la tabla-->
+    
+    <!-- La etiqueta th define una celda de encabezado dentro de una fila de la tabla. Cada etiqueta th representa un encabezado de columna en la tabla-->
+
+    <table border="1">
+        <tr>
+            <th>encabezado 1</th>
+            <th>encabezado 2</th>
+            <th>encabezado 3</th>
+        </tr>
+        <tr>
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+            <td>Dato 3</td>
+        </tr>
+        <tr>
+            <td>Dato 4</td>
+            <td>Dato 5</td>
+            <td>Dato 6</td>
+        </tr>
+    </table>
+<br>
+    <table border ="1">
+        <caption>Paises y Capitales</caption>
+        <tr>
+            <th>País</th>
+            <th>Capital</th>
+        </tr>
+        <tr>
+            <td>Argentina</td>
+            <td>Buenos Aires</td>
+        </tr>
+        <tr>
+            <td>Brasil</td>
+            <td>Brasilia</td>
+        </tr>
+        <tr>
+            <td>Colombia</td>
+            <td>Bogotá</td>
+    </table>
+<br>
+<br>
+    <table border="1"> <!-- Tabla con celdas combinadas -->
+        <tr>
+            <th colspan="4">Mundial de futbol</th><!-- Celda de encabezado que abarca dos columnas -->
+        </tr>
+        <tr>
+            <td rowspan="3">Paises con mayotia de goles</td> <!-- Celda de datos que abarca tres filas -->
+            <td>Brazil 2</td> <td>230</td>
+        </tr>
+        <tr>
+            <td>Alemania</td> <td>180</td>
+        </tr>
+        <tr>
+            <td>Argentina</td> <td>150</td>
+
+    </table>
+</body>
+</html>
